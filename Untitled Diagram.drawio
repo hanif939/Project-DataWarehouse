@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:38:34.826Z" agent="5.0 (Windows)" version="20.6.0" etag="1I1-BhuZHXmGmq9OM5Ju" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T00:07:15.790Z" agent="5.0 (Windows)" version="20.6.0" etag="4u-mXxcWJCF3IVg2V0Oy" type="github">
   <diagram id="mP2tKTFAPKDZfF3baMP0" name="Page-1">
     <mxGraphModel dx="867" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -106,16 +106,37 @@
         <mxCell id="eOpzTa6bMAsp1LnW_9zD-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eOpzTa6bMAsp1LnW_9zD-46" target="eOpzTa6bMAsp1LnW_9zD-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eOpzTa6bMAsp1LnW_9zD-46" value="&lt;div&gt;*officeCode&lt;/div&gt;&lt;div&gt;city&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;adressLine1&lt;/div&gt;&lt;div&gt;adressLine2&lt;/div&gt;&lt;div&gt;state&lt;/div&gt;&lt;div&gt;country&lt;/div&gt;&lt;div&gt;postalCode&lt;/div&gt;&lt;div&gt;territory&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eOpzTa6bMAsp1LnW_9zD-46" value="&lt;div align=&quot;left&quot;&gt;*officeCode&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;city&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;phone&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;adressLine1&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;adressLine2&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;state&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;country&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;postalCode&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;territory&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="60" y="280" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="eOpzTa6bMAsp1LnW_9zD-47" value="&lt;b&gt;payments&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="158" width="120" height="22" as="geometry" />
+          <mxGeometry x="510" y="320" width="120" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="eOpzTa6bMAsp1LnW_9zD-54" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="eOpzTa6bMAsp1LnW_9zD-55" value="&lt;div align=&quot;left&quot;&gt;*customerNumber&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;*checkNumber&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;paymentDate&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;amount&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="342" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eOpzTa6bMAsp1LnW_9zD-56" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="eOpzTa6bMAsp1LnW_9zD-46">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="60" y="290" as="sourcePoint" />
-            <mxPoint x="60" y="220" as="targetPoint" />
+            <mxPoint x="30" y="328" as="sourcePoint" />
+            <mxPoint x="60" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eOpzTa6bMAsp1LnW_9zD-60" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eOpzTa6bMAsp1LnW_9zD-27">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="440" as="sourcePoint" />
+            <mxPoint x="60" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eOpzTa6bMAsp1LnW_9zD-62" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=1.02;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eOpzTa6bMAsp1LnW_9zD-34">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="300" as="sourcePoint" />
+            <mxPoint x="510" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eOpzTa6bMAsp1LnW_9zD-63" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;rounded=0;entryX=1.007;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eOpzTa6bMAsp1LnW_9zD-47" target="eOpzTa6bMAsp1LnW_9zD-34">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="440" as="sourcePoint" />
+            <mxPoint x="370" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
